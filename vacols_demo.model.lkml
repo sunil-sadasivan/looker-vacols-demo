@@ -34,6 +34,8 @@ explore: attytime {}
 
 explore: brieff {
 
+  description: "Briefface table (Appeals)"
+
   join: folder {
     type: left_outer
     relationship: one_to_one
@@ -61,7 +63,9 @@ explore: coin {}
 
 explore: congmembr {}
 
-explore: corres {}
+explore: corres {
+  description: "(Veteran/Appellant table)"
+}
 
 explore: corrtyps {}
 
