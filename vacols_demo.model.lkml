@@ -184,3 +184,7 @@ explore: tbsched {}
 explore: users {}
 
 explore: vftypes {}
+
+explore: queue_distributions {}
+
+explore: queue_outcodings {}
